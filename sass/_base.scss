@@ -40,4 +40,28 @@ html {
   }
 }
 
+///////////////////////////////
+// FINISHED BASE / START TYPOGRAPHY
 
+body{
+  font-size: 1.6rem;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.header_title{
+  font-size: 10rem;
+}
+
+///////////////////////////////
+// FINISHED TYPOGRAPHY / START HEADER
+
+.header_title{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}

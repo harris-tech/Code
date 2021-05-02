@@ -23,3 +23,19 @@ html {
   @media only screen and (max-width: 37.5em) {
     html {
       font-size: 30%; } }
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", Helvetica, Arial, sans-serif; }
+
+.header_title {
+  font-size: 10rem; }
+
+.header_title {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto; }
+
+.center {
+  display: flex;
+  justify-content: center; }
