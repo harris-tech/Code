@@ -9,7 +9,7 @@ $color-tertiary:#3B3B3B;
 $bp-largestest: 87.5em; // 1400px
 $bp-largest: 75em; // 1200px
 $bp-large: 62.5em; // 1000px
-$bp-medium: 50em; // 800px;
+$bp-medium: 50em; // 800px; 50em
 $bp-small: 37.5em; // 600px;
 
 
@@ -116,7 +116,7 @@ body{
       font-size: 3rem;
       color: black;
 
-      @media only screen and (max-width: $bp-medium) {
+      @media only screen and (max-width: $bp-large) {
         width: 90vw;
       }
     }
@@ -131,7 +131,7 @@ body{
   grid-template-columns: 1fr 1fr;
   gap: 15rem;
 
-  @media only screen and (max-width: $bp-medium) {
+  @media only screen and (max-width: $bp-large) {
     grid-template-columns: 1fr;
   }
 
@@ -180,3 +180,93 @@ body{
 ///////////////////////////////
 // FINISHED CARDS / START FOOTER
 
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-primary-light;
+  border: 1px solid black;
+  margin-top: 20rem;
+  padding: 5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 3rem 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &_left{
+    margin-left: 3rem;
+    @media only screen and (max-width: $bp-medium) {
+      margin-left: 0rem;
+      align-items: center;
+      justify-items: center;
+    }
+
+    &-h{
+      font-size: 5rem;
+      font-weight: 700;
+      margin-bottom: 6rem;
+      text-align: center;
+      @media only screen and (max-width: $bp-medium) {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+    }
+    &-ul{
+
+    }
+    &-li{
+      font-size: 2rem;
+      text-decoration: none;
+      color: black;
+      list-style: none;
+      width: fit-content;
+      margin: 2rem 0rem;
+      text-align: center;
+      @media only screen and (max-width: $bp-medium) {
+        display: flex;
+        justify-content: center;
+      }
+
+    }
+  }
+
+  &_right{
+    margin-right: 3rem;
+    &-h{
+      font-size: 5rem;
+      font-weight: 700;
+      margin-bottom: 6rem;
+      text-align: center;
+    }
+    &-ul{
+
+    }
+    &-li{
+      font-size: 2rem;
+      text-decoration: none;
+      color: black;
+      list-style: none;
+      margin: 2rem 0rem;
+      text-align: center;
+    }
+  }
+}
+.footer_a{
+  
+  color: black;
+  text-decoration: none;
+  transition: all .3s;
+  @media only screen and (max-width: $bp-medium) {
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+    text-align: center;
+  }
+
+  &:hover{
+    font-size: 3rem;
+    font-weight: 700;
+    color: $color-secondary;
+    transition: all .3s;
+  }
+}
