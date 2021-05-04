@@ -43,6 +43,36 @@ body {
   display: flex;
   justify-content: center; }
 
+.nav {
+  background-color: #3B3B3B;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0rem;
+  margin: 5rem 0rem; }
+  .nav_btn {
+    color: white;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    background-color: #F8A23F; }
+
+.para {
+  margin: 10rem 0rem; }
+  .para_container {
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+    background-color: #6aa5fd;
+    border: 1px solid black; }
+    .para_container-p {
+      width: 50vw;
+      padding: 3rem;
+      font-weight: 600;
+      font-size: 3rem;
+      color: black; }
+
 .navigation__checkbox {
   display: none; }
 
