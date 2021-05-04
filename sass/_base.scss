@@ -118,3 +118,51 @@ body{
     }
   }
 }
+
+///////////////////////////////
+// FINISHED PARA / START CARDS
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+
+  &_card{
+    background-color: $color-primary-light;
+    border: 1px solid black;
+    padding: 3rem;
+    margin: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &-h{
+      font-size: 5rem;
+      font-weight: 700;
+      margin: 2.5rem 0rem;
+    }
+
+    &-ul{
+      
+    }
+    &-li{
+      font-size: 2rem;
+      font-weight: 500;
+      list-style: none;
+      margin: 2.5rem 0rem;
+    }
+    &-1{
+
+    }
+    &-2{
+
+    }
+    &-3{
+
+    }
+    &-4{
+
+    }
+  }
+}
