@@ -266,3 +266,38 @@ body{
     transition: all .3s;
   }
 }
+
+///////////////////////////////
+// FINISHED FOOTER / START MAP
+
+.map{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+  &-img{
+    width: 50vw;
+    @media only screen and (max-width: $bp-medium) {
+      width: 75vw;
+    }
+  }
+}
+
+///////////////////////////////
+// FINISHED MAP / START LOCATION
+
+.location{
+
+  &-ol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10%;
+
+  }
+  &-li{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem 0rem;
+  }
+}

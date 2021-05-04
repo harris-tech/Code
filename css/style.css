@@ -187,6 +187,28 @@ body {
     color: #F8A23F;
     transition: all .3s; }
 
+.map {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem; }
+  .map-img {
+    width: 50vw; }
+    @media only screen and (max-width: 50em) {
+      .map-img {
+        width: 75vw; } }
+
+.location-ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 10%; }
+
+.location-li {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 2rem 0rem; }
+
 .navigation__checkbox {
   display: none; }
 
