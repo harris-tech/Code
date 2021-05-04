@@ -303,7 +303,7 @@ body{
 }
 
 ///////////////////////////////
-// FINISHED LOCATION / START 
+// FINISHED LOCATION / START GRID
 
 .about{
 
@@ -385,5 +385,19 @@ body{
         align-items: center;
         }
     }
+  }
+}
+
+///////////////////////////////
+// FINISHED GRID / START CALENDAR
+
+.calendar{
+  display: flex;
+  justify-content: center;
+  &-img{
+    width: 50vw;
+    @media only screen and (max-width: $bp-small) {
+      width: 75vw;
+      }
   }
 }

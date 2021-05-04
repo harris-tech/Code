@@ -273,6 +273,15 @@ body {
         justify-content: center;
         align-items: center; } }
 
+.calendar {
+  display: flex;
+  justify-content: center; }
+  .calendar-img {
+    width: 50vw; }
+    @media only screen and (max-width: 37.5em) {
+      .calendar-img {
+        width: 75vw; } }
+
 .navigation__checkbox {
   display: none; }
 
